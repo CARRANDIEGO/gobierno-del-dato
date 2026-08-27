@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Analítica de Datos para la Toma de Decisiones</title>
+
+  <!-- Google Analytics GA4 -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-BFG5DFNMKN"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-BFG5DFNMKN');
+  </script>
+
+  <style>
+    * {
+      box-sizing: border-box;
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      color: #172554;
+      background: #ffffff;
+    }
+
+    nav {
+      background: #111827;
+      padding: 18px;
+      text-align: center;
+      position: sticky;
+      top: 0;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 20px;
+      font-weight: bold;
+    }
+
+    header {
+      padding: 110px 20px;
+      text-align: center;
+      background: linear-gradient(135deg, #eef2ff, #fdf2f8);
+    }
+
+    header h1 {
+      font-size: 48px;
+      color: #1e3264;
+      margin-bottom: 20px;
+    }
+
+    header p {
+      font-size: 21px;
+      color: #475569;
+    }
+
+    section {
+      min-height: 500px;
+      padding: 80px 12%;
+      border-bottom: 1px solid #e5e7eb;
+    }
+
+    section h2 {
+      font-size: 34px;
+      color: #1e3264;
+    }
+
+    section p {
+      font-size: 18px;
+      line-height: 1.8;
+      color: #475569;
+    }
+
+    .cards {
+      display: flex;
+      gap: 25px;
+      flex-wrap: wrap;
+      margin-top: 35px;
+    }
+
+    .card {
+      flex: 1;
+      min-width: 220px;
+      padding: 30px;
+      border-radius: 15px;
+      background: #f8fafc;
+      box-shadow: 0 5px 18px rgba(0,0,0,.08);
+    }
+
+    .boton {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 14px 25px;
+      background: #4338ca;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+    }
+
+    footer {
+      background: #111827;
+      color: white;
+      text-align: center;
+      padding: 35px;
+    }
+  </style>
+</head>
+
+<body>
+
+<nav>
+  <a href="#inicio">Inicio</a>
+  <a href="#analitica">Analítica de datos</a>
+  <a href="#bi">Business Intelligence</a>
+  <a href="#decisiones">Toma de decisiones</a>
+  <a href="#contacto">Contacto</a>
+</nav>
+
+<header id="inicio">
+  <h1>Datos que inspiran, decisiones que transforman.</h1>
+  <p>Transformamos datos en conocimiento para apoyar mejores decisiones.</p>
+  <a class="boton" href="#analitica">Conocer más</a>
+</header>
+
+<section id="analitica">
+  <h2>Analítica de datos</h2>
+  <p>
+    La analítica de datos permite descubrir patrones, comprender resultados
+    y transformar información en conocimiento útil para las organizaciones.
+  </p>
+
+  <div class="cards">
+    <div class="card">
+      <h3>Datos</h3>
+      <p>Recopilación y organización de información relevante.</p>
+    </div>
+
+    <div class="card">
+      <h3>Análisis</h3>
+      <p>Identificación de tendencias, relaciones y comportamientos.</p>
+    </div>
+
+    <div class="card">
+      <h3>Información</h3>
+      <p>Conversión de los datos en conocimiento para la gestión.</p>
+    </div>
+  </div>
+</section>
+
+<section id="bi">
+  <h2>Business Intelligence</h2>
+  <p>
+    Business Intelligence integra datos, indicadores y herramientas de
+    visualización para facilitar el seguimiento del desempeño de una organización.
+  </p>
+</section>
+
+<section id="decisiones">
+  <h2>Toma de decisiones</h2>
+  <p>
+    El análisis de información permite tomar decisiones basadas en evidencia,
+    identificar oportunidades y realizar seguimiento a los resultados obtenidos.
+  </p>
+
+  <a class="boton" href="#contacto">Más información</a>
+</section>
+
+<section id="contacto">
+  <h2>Contacto</h2>
+  <p>
+    Este sitio ha sido desarrollado con fines académicos para la asignatura
+    Gobierno del Dato y Toma de Decisiones.
+  </p>
+</section>
+
+<footer>
+  Actividad académica · Gobierno del Dato y Toma de Decisiones
+</footer>
+
+</body>
+</html>
